@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        // "outDir": "js", // Biên dịch vào thư mục JS 
+        "target": "ES6", // Cho phép biên dịch code Typescript sang kiểu ES6 
+        "module": "CommonJS", // CommonJS là tiêu chuẩn được sử dụng trong Node.js để làm việc với các module 
+        "removeComments": true, // Xóa comments khi biên dịch snag
+        "esModuleInterop": true, // Dùng được từ khóa import thay cho require
+        "outDir": "dist", // Biên dịch ra thư mục dist
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }
+}
+
